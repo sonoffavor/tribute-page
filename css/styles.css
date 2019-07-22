@@ -1,0 +1,212 @@
+/**** TAG SELECTORS ****/
+
+blockquote {
+    margin: 20px auto 0 auto;
+    width: 90%;
+}
+
+blockquote p {
+    color: #1e2022;
+    background: #f0f5f9;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    padding: 15px;
+}
+
+blockquote p::before {
+   content: '\201c';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+blockquote footer {
+    margin: 20px auto 20px auto;
+    width: 90%;
+}
+
+body {
+    background-color: #f0f5f9;
+}
+
+footer p {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #1e2022;
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 20px 20px 30px 20px;
+}
+
+p {
+    color: #1e2022;
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    color: #1e2022;
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    letter-spacing: 0.02rem;
+    line-height: 35px;
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+
+ul a {
+    color: #1e2022;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/**** CLASS SELECTORS ****/
+
+.books {
+    color: black;
+    font-weight: italic;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Email */
+.fa-envelope {
+    color: #1e2022;
+    font-size: 20px;
+    margin-right: 7px;
+    padding: 0;
+    text-decoration: none;
+    width: 15px;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    color: #1e2022;
+    font-size: 20px;
+    margin-left: 7px;
+    padding: 0;
+    text-decoration: none;
+    width: 15px;
+}
+
+.personal-contact-information {
+    margin: auto auto 0 auto;
+    text-align: center;
+}
+
+/**** ID SELECTORS ****/
+
+#img-caption {
+    color: #1e2022;
+    font-size: 21px;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center; 
+}
+
+#img-div {
+    background-color: #f0f5f9;
+    border-radius: 0.5%;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    width: 85%;
+}
+
+#img-div a {
+    color: #1e2022;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#img-div a:hover {
+    color: #52616b;
+}
+
+#img-div p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#title {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#title h1 {
+    color: #1e2022;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.125rem;
+    line-height: 40px;
+    margin: auto auto 0 auto;
+    text-align: center;
+}
+
+#title p {
+    color: #1e2022;
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    letter-spacing: 0.02rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#tribute-info a {
+    color: #1e2022;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#tribute-info a:hover {
+    color: #52616b;
+}
+
+#tribute-info p {
+    letter-spacing: 0.02rem;
+    line-height: 35px;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+
+
+
